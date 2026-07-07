@@ -74,10 +74,18 @@
 	</repositories>
 
 	<dependencies>
+		<!-- Folia API provides all Bukkit/Paper classes plus Folia scheduler methods -->
+		<dependency>
+			<groupId>dev.folia</groupId>
+			<artifactId>folia-api</artifactId>
+			<version>1.20.1-R0.1-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
 			<version>${bukkitVersion}</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>net.milkbowl.vault</groupId>
@@ -88,12 +96,6 @@
 			<groupId>org.bstats</groupId>
 			<artifactId>bstats-bukkit</artifactId>
 			<version>3.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>dev.folia</groupId>
-			<artifactId>folia-api</artifactId>
-			<version>1.20.1-R0.1-SNAPSHOT</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.hydrox.bukkit</groupId>
